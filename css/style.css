@@ -1,0 +1,382 @@
+body,html{  
+  width: 100vw;
+  height: 100vh;
+ margin: 0;
+ padding: 0;
+overflow: hidden;
+}
+.wrap{  
+ background:url(../img/background.jpeg) ;
+ background-size:cover ;
+ font-family: 'AgencyFB-Bold';
+}
+/* верхние табло */
+.header {
+}
+.jackpot{
+ display: flex;
+ justify-content: space-between;
+ margin: 10px calc(30px + 5vh) 20px 60px;
+}
+
+.jackpot-scorebar {
+ position: relative;
+}
+
+.scorebar-frame {
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ max-width: 355px;
+ height: 105px;
+ position: relative;
+ z-index: 20;
+ overflow: hidden;
+} 
+ .scorebar-frame img{
+ display: block;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+}
+.scorebar {
+ display: flex;
+ justify-content: end;
+ align-items: center;
+ max-width: 360px;
+ height: 100px;
+ padding: 0 15px;
+  position: absolute;
+  top: 52%;
+  left:  0;
+  transform: translateY(-50%);
+}
+
+.scorebar-image1 {
+  display: block;
+  width: 90px;
+  height: 110px;
+  padding:25px 30px 25px 5px;
+}
+.scorebar-image2{
+  display: block;
+  width: 90px;
+  height: 110px;
+  padding:30px 30px 25px 0px;
+}
+.scorebar-image3{
+  display: block;
+  width: 87px;
+  height: 123px;
+  padding:30px 30px 25px 0px;
+}
+.scorebar-text{
+ 
+ font-size: 38px;
+ line-height: 1.2;
+ font-weight: 700;
+ padding: 10px 0 0 15px;
+ color: #6bfff4; 
+}
+.scorebar-text:first-child{
+padding-left: 70px;
+}
+.main-content{
+  display: flex;
+}
+
+/******************видео контент **********************/
+.main-content__video{
+  width: 1280px;
+  height: 90%;
+  margin: 0 auto;
+}
+.main-content__video img{
+  width: 100%;
+  height: 100%;
+}
+/* боковая панель */ 
+ .main-content__side-bar {
+ 
+}
+.side-bar__buttons {
+  display: flex;
+  flex-direction: column;
+} 
+.collect-button {
+ position: relative;
+ margin:10% 0 10% 0;
+
+}
+.button__frame {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 130px;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+}
+
+.collect-button__frame img{
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+.button__txt {
+display: flex;
+justify-content: center;
+align-items: center;
+  position: absolute;
+  top: 52%;
+  left:  15%;
+  transform: translateY(-50%);
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  color: #6bfff4;
+  text-transform: uppercase;
+}
+.coin-button {
+  position: relative;
+ margin-bottom: 10%;
+}
+
+.coin-button__image img{
+  display: flex;
+justify-content: center;
+align-items: center;
+width: 55px;
+height: 72px;
+  position: absolute;
+  top:50%;
+  left: 20%;
+  transform: translateY(-50%);
+}
+.select-button {
+  position: relative;
+margin-bottom: 10%;;
+}
+
+.start-button {
+  position: relative;
+  margin:0 40px 10% -40px;
+}
+.start-button__frame{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 199px;
+  height: 199px;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+}
+.start-button__frame img{
+  max-width: 199px;
+  height: 199px;
+  object-fit: cover;
+}
+.start-button__text {
+  position: absolute;
+  top: 50%;
+  left:  30%;
+  transform: translateY(-50%);
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  color: #6bfff4;
+  text-transform: uppercase;
+}
+.start-button__text #little{
+  font-size: 20px;
+  font-weight: 400;
+}
+/****************************** нижние кнопки ******************/
+
+.footer-buttons {
+  display: flex;
+  margin: 40px 30px 20px 120px;
+}
+.footer-buttons {
+  display: flex;
+  justify-content:end ;
+  margin: 0 43px 22px 50px;
+}
+.start-button-automatic {
+  position: relative;
+  margin-right: 100px;
+}
+.start-button-automatic__frame {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 126px;
+  height: 122px;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+}
+.start-button-automatic__frame img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.start-button-automatic__text {
+  position: absolute;
+  top: 52%;
+  left:  10px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  color: #6bfff4;
+  text-transform: uppercase;
+}
+.hold-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 50px 0 0 ;
+}
+.hold-button {
+position: relative;
+margin-right: 35px;
+}
+.hold-button:last-child{
+  margin-right: 0;
+}
+.hold-button__frame {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 67px;
+  height: 91px;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+}
+.hold-button__frame img{
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hold-button__text {
+  position: absolute;
+  top: 40%;
+  left:  30%;
+  transform: translateY(-50%);
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  color: #6bfff4;
+  text-transform: uppercase;
+}
+.hold-button__text #cancel{
+  color:white;
+  font-size:11px ;
+  font-weight: normal;
+}
+.hold-button__text #lines{
+  font-weight: normal;
+}
+.hold-button__image1{
+  width: 8px;
+  height: 9px;
+}
+.hold-button__image2{
+  width: 16px;
+  height: 9px;
+}
+.hold-button__image3{
+  width: 22px;
+  height: 9px;
+}
+.hold-button__image4{
+  width: 27px;
+  height: 9px;
+}
+.hold-button__image5{
+  width: 32px;
+  height: 9px;
+}
+.gamble-buttons {
+  display: flex;
+  margin: 15px 150px 0 0 ;
+}
+.button-bet {
+  position: relative;
+  margin: 0 20px;
+}
+.button-bet__frame {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 81px;
+  height: 83px;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+}
+.button-bet__frame img{
+  width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.button-bet__text {
+  position: absolute;
+  top: 45%;
+  left:  25%;
+  transform: translateY(-50%);
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  color: #6bfff4;
+  text-transform: uppercase;
+}
+.button-buttons {
+  position: relative;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  margin: 0 60px 10% 0;
+}
+.button-buttons__frame {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 144px;
+  height: 79px;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+}
+.button-buttons__frame img {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.button-buttons__text {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  color: #6bfff4;
+  text-transform: uppercase;
+}
+.panel{
+  display: none;
+}
+.panel .active{
+ display: block;
+ transition: all 0.8s ease 0s;
+}

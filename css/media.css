@@ -1,0 +1,731 @@
+@media(max-width:1581px) {
+  .jackpot {
+    margin: 10px 40px 30px 40px;
+  }
+
+  .jackpot-scorebar {
+    max-width: 320px;
+    height: 90px;
+
+  }
+
+  .scorebar-frame {
+    max-width: 350px;
+    height: 90px;
+
+  }
+
+  .scorebar-image1 {
+    width: 70px;
+    height: 90px;
+    padding: 20px 25px 20px 5px;
+  }
+
+  .scorebar-image2 {
+    width: 70px;
+    height: 90px;
+    padding: 20px 25px 20px 5px;
+  }
+
+  .scorebar-image3 {
+    width: 70px;
+    height: 100px;
+    padding: 20px 25px 20px 5px;
+  }
+
+  .scorebar-text {
+    font-size: 33px;
+    font-weight: 600;
+    padding: 10px 0 0 15px;
+  }
+
+  .scorebar-text:first-child {
+    padding-left: 70px;
+  }
+
+  .main-content__video {
+    max-width: 1300px;
+    height: 670px;
+    margin: 0 145px 35px 133px;
+  }
+
+}
+
+@media(max-width:1301px) {
+  .jackpot-scorebar {
+    max-width: 280px;
+    height: 70px;
+  }
+
+  .scorebar-frame {
+    max-width: 280px;
+    height: 70px;
+  }
+
+  .scorebar-image1 {
+    width: 55px;
+    height: 75px;
+    padding: 20px 25px 15px 0px;
+  }
+
+  .scorebar-image2 {
+    width: 55px;
+    height: 75px;
+    padding: 20px 25px 15px 0px;
+  }
+
+  .scorebar-image3 {
+    width: 55px;
+    height: 75px;
+    padding: 20px 25px 15px 0px;
+  }
+
+  .scorebar-text {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px 0 0 12px;
+
+  }
+
+  .scorebar-text:first-child {
+    padding-left: 55px;
+  }
+
+  .main-content__video {
+    max-width: 1300px;
+    /* height: 670px; */
+    margin: 0 145px 35px 133px;
+  }
+
+
+  .collect-button {
+    margin: 30px 0 30px 0;
+  }
+
+  .button__frame img {
+    max-width: 120px;
+    height: 120px;
+  }
+
+  .button__txt {
+    font-size: 22px;
+    font-weight: 700;  
+  }
+
+  .coin-button {
+    margin-bottom: 30px;
+  }
+
+  .coin-button__image img {
+    width: 50px;
+    height: 67px;
+  }
+
+  .select-button {
+    margin-bottom: 30px;
+  }
+
+  .start-button {
+    margin: 0 25px 15px -25px;
+  }
+
+  .start-button__frame img {
+    max-width: 180px;
+    height: 180px;
+  }
+
+  .start-button__text {
+    top: 45%;
+    left: 35%;
+    font-size: 20px;
+    
+  }
+
+  .start-button__text #little {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  /****************************** нижние кнопки ******************/
+
+  .footer-buttons {
+    margin: 0 33px 22px 50px;
+  }
+
+  .start-button-automatic {
+    margin-right: 50px;
+  }
+
+  .start-button-automatic__frame {
+    max-width: 115px;
+    height: 115px;
+  }
+
+  .start-button-automatic__frame img {
+    max-width: 115px;
+    height: 115px;
+    object-fit: cover;
+  }
+
+  .start-button-automatic__text {
+    top: 52%;
+    left: 17%;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .hold-buttons {
+    margin: 15px 40px 0 0;
+  }
+
+  .hold-button {
+    margin-right: 20px;
+  }
+
+  .hold-button:last-child {
+    margin-right: 0;
+  }
+
+  .hold-button__frame {
+ 
+    max-width: 60px;
+    height: 86px;
+
+  }
+
+  .hold-button__frame img {
+ 
+    max-width: 60px;
+    height: 86px;
+  }
+
+  .hold-button__text {
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  .hold-button__text #cancel {
+    font-size: 11px;
+    font-weight: normal;
+  }
+
+  .hold-button__image1 {
+    width: 8px;
+    height: 9px;
+  }
+
+  .hold-button__image2 {
+    width: 22px;
+    height: 9px;
+  }
+
+  .hold-button__image3 {
+    width: 22px;
+    height: 9px;
+  }
+
+  .hold-button__image4 {
+    width: 27px;
+    height: 9px;
+  }
+
+  .hold-button__image5 {
+    width: 32px;
+    height: 9px;
+  }
+
+  .gamble-buttons {
+    display: flex;
+    margin: 15px 150px 0 0;
+  }
+
+  .button-bet {
+    position: relative;
+    margin: 0 8px;
+  }
+
+  .button-bet__frame {
+    
+    max-width: 64px;
+    height: 68px;
+    
+  }
+
+  .button-bet__frame img {
+    max-width: 64px;
+    height: 68px;
+  }
+
+  .button-bet__text {
+    font-size: 12px;
+  }
+
+  .button-buttons {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    margin: 0 20px 15px 20px;
+  }
+
+  .button-buttons__frame {
+    max-width: 125px;
+    height: 69px;
+  }
+
+  .button-buttons__frame img {
+    max-width: 125px;
+    height: 69px;
+  }
+
+  .button-buttons__text {
+    font-size: 25px;
+  }
+  .main-content__video {
+    max-width: 1200px;
+    height: 630px;
+    margin: 0 145px 80px 133px;
+  }
+}
+@media(max-width:1030px) {
+  .jackpot-scorebar {
+    max-width: 250px;
+    height: 60px;
+  }
+
+  .scorebar-frame {
+    max-width: 250px;
+    height: 60px;
+  }  
+
+  .scorebar-image1 {
+    width: 50px;
+    height: 70px;
+    padding: 20px 25px 15px 0px;
+  }
+
+  .scorebar-image2 {
+    width: 50px;
+    height: 70px;
+    padding: 20px 25px 15px 0px;
+  }
+
+  .scorebar-image3 {
+    width: 53px;
+    height: 70px;
+    padding: 20px 25px 15px 0px;
+  }
+
+  .scorebar-text {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 10px 0 0 12px;
+  }
+
+  .scorebar-text:first-child {
+    padding-left: 55px;
+  }
+/* бовая панель */
+
+  .collect-button {
+    margin: 25px 0 25px 0;
+  }
+
+  .button__frame img {
+    max-width: 105px;
+    height: 105px;
+  }
+
+  .button__txt {
+    top:40%;
+    font-size: 18px;
+    font-weight: 600;  
+  }
+
+  .coin-button {
+    margin-bottom: 25px;
+  }
+
+  .coin-button__image img {
+    top:43%;
+    left: 18%;
+    width: 42px;
+    height: 57px;
+  }
+
+  .select-button {
+    margin-bottom: 25px;
+  }
+
+  .start-button {
+    margin: 0 20px 15px -25px;
+  }
+
+  .start-button__frame img {
+    max-width: 150px;
+    height: 150px;
+  }
+
+  .start-button__text {
+    top: 40%;
+    left: 35%;
+    font-size: 15px;
+  }
+
+  .start-button__text #little {
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  /****************************** нижние кнопки ******************/
+
+  .footer-buttons {
+    margin: 0 33px 22px 60px;
+  }
+
+  .start-button-automatic {
+    margin-right: 45px;
+  }
+
+  .start-button-automatic__frame {
+    max-width: 105px;
+    height: 105px;
+  }
+
+  .start-button-automatic__frame img {
+    max-width: 105px;
+    height: 105px;
+  }
+
+  .start-button-automatic__text {
+    top: 52%;
+    left: 17%;
+    font-size: 11px;
+    font-weight: 300;
+  }
+
+  .hold-buttons {
+    margin: 15px 20px 0 0;
+  }
+
+  .hold-button {
+    margin-right: 15px;
+  }
+
+
+  .hold-button__frame {
+    max-width: 60px;
+    height: 80px;
+  }
+
+  .hold-button__frame img {
+    max-width: 60px;
+    height: 80px;
+  }
+
+  .hold-button__text {
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .hold-button__text #cancel {
+    font-size: 10px;
+    font-weight: normal;
+  }
+
+  .hold-button__image1 {
+    width: 8px;
+    height: 9px;
+  }
+
+  .hold-button__image2 {
+    width: 22px;
+    height: 9px;
+  }
+
+  .hold-button__image3 {
+    width: 22px;
+    height: 9px;
+  }
+
+  .hold-button__image4 {
+    width: 27px;
+    height: 9px;
+  }
+
+  .hold-button__image5 {
+    width: 32px;
+    height: 9px;
+  }
+
+  .gamble-buttons {
+    display: flex;
+    margin: 15px 100px 0 0;
+  }
+
+  .button-bet {
+    margin: 0 8px;
+  }
+
+  .button-bet__frame {
+    max-width: 64px;
+    height: 68px;
+  }
+
+  .button-bet__frame img {
+    max-width: 64px;
+    height: 68px;
+  }
+
+  .button-bet__text {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .button-buttons {
+    margin: 0 15px 15px 15px;
+  }
+
+  .button-buttons__frame {
+    max-width: 115px;
+    height: 60px;
+  }
+
+  .button-buttons__frame img {
+    max-width: 115px;
+    height: 60px;
+  }
+
+  .button-buttons__text {
+    left: 20%;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .main-content__video {
+    max-width: 1100px;
+    height: 530px;
+    margin: 0 125px 150px 120px;
+  }
+}
+/* работает до 896px */
+@media(max-width:896px) {
+  .jackpot-scorebar {
+    max-width: 250px;
+    height: 60px;
+  }
+
+  .scorebar-frame {
+    max-width: 250px;
+    height: 60px;
+  }  
+
+  .scorebar-image1 {
+    width: 50px;
+    height: 70px;
+    padding: 20px 25px 15px 0px;
+  }
+
+  .scorebar-image2 {
+    width: 50px;
+    height: 70px;
+    padding: 20px 25px 15px 0px;
+  }
+
+  .scorebar-image3 {
+    width: 53px;
+    height: 70px;
+    padding: 20px 25px 15px 0px;
+  }
+
+  .scorebar-text {
+    font-size: 23px;
+    font-weight: 500;
+    padding: 10px 0 0 12px;
+  }
+
+  .scorebar-text:first-child {
+    padding-left: 55px;
+  }
+/* бовая панель */
+
+  .collect-button {
+    margin:auto 0;
+
+  }
+
+  .button__frame img {
+    max-width: 105px;
+    height: 105px;
+  }
+
+  .button__txt {
+    top:40%;
+    font-size: 18px;
+    font-weight: 600;  
+  }
+
+  .coin-button {
+    margin-bottom: auto;
+    }
+
+  .coin-button__image img {
+    top:43%;
+    left: 18%;
+    width: 42px;
+    height: 57px;
+  }
+
+  .select-button {
+    margin-bottom:auto;
+  }
+
+  .start-button {
+    margin: 0 20px auto -25px;
+  }
+
+  .start-button__frame img {
+    max-width: 150px;
+    height: 150px;
+  }
+
+  .start-button__text {
+    top: 40%;
+    left: 35%;
+    font-size: 15px;
+  }
+
+  .start-button__text #little {
+    font-size: 12px;
+    font-weight: 300;
+  }
+
+  /****************************** нижние кнопки ******************/
+
+  .footer-buttons {
+    margin: 0 33px 22px 60px;
+  }
+
+  .start-button-automatic {
+    margin-right: 45px;
+  }
+
+  .start-button-automatic__frame {
+    max-width: 105px;
+    height: 105px;
+  }
+
+  .start-button-automatic__frame img {
+    max-width: 105px;
+    height: 105px;
+  }
+
+  .start-button-automatic__text {
+    top: 52%;
+    left: 17%;
+    font-size: 11px;
+    font-weight: 300;
+  }
+
+  .hold-buttons {
+    margin: 15px 20px 0 0;
+  }
+
+  .hold-button {
+    margin-right: 15px;
+  }
+
+
+  .hold-button__frame {
+    max-width: 60px;
+    height: 80px;
+  }
+
+  .hold-button__frame img {
+    max-width: 60px;
+    height: 80px;
+  }
+
+  .hold-button__text {
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .hold-button__text #cancel {
+    font-size: 10px;
+    font-weight: normal;
+  }
+
+  .hold-button__image1 {
+    width: 8px;
+    height: 9px;
+  }
+
+  .hold-button__image2 {
+    width: 22px;
+    height: 9px;
+  }
+
+  .hold-button__image3 {
+    width: 22px;
+    height: 9px;
+  }
+
+  .hold-button__image4 {
+    width: 27px;
+    height: 9px;
+  }
+
+  .hold-button__image5 {
+    width: 32px;
+    height: 9px;
+  }
+
+  .gamble-buttons {
+    display: flex;
+    margin: 15px 100px 0 0;
+  }
+
+  .button-bet {
+    margin: 0 8px;
+  }
+
+  .button-bet__frame {
+    max-width: 64px;
+    height: 68px;
+  }
+
+  .button-bet__frame img {
+    max-width: 64px;
+    height: 68px;
+  }
+
+  .button-bet__text {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .button-buttons {
+    margin: 0 15px 15px 15px;
+  }
+
+  .button-buttons__frame {
+    max-width: 115px;
+    height: 60px;
+  }
+
+  .button-buttons__frame img {
+    max-width: 115px;
+    height: 60px;
+  }
+
+  .button-buttons__text {
+    left: 20%;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .main-content__video {
+    max-width: 1100px;
+    height: 530px;
+    margin: 0 125px 150px 120px;
+  }
+}

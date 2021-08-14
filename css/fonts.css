@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: 'font596e78c7d8f0d85090a9af4e8e19076c';
+        
+        src:    url('https://nomail.com.ua/files/eot/596e78c7d8f0d85090a9af4e8e19076c.eot?#iefix') format('embedded-opentype'),
+                url('https://nomail.com.ua/files/woff/596e78c7d8f0d85090a9af4e8e19076c.woff') format('woff'),
+                url('https://nomail.com.ua/files/woff2/596e78c7d8f0d85090a9af4e8e19076c.woff2') format('woff2');
+    }
+    
+    @font-face { font-family: 'AgencyFB-Bold';  src: local('AgencyFB-Bold'), url('https://nomail.com.ua/files/woff/596e78c7d8f0d85090a9af4e8e19076c.woff') format('woff'); }
+    
